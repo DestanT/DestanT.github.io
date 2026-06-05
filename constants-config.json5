@@ -13,7 +13,7 @@
 	// Basic details about your website used for metadata, RSS feeds, and SEO.
 	"site-info": {
 		// Your name or the name of your site's author. Used in RSS feeds, OG images etc and other metadata for attribution.
-		author: "",
+		author: "Destan",
 		// Your custom domain name (e.g., "example.com"). Important: Do NOT include "https://" or a trailing slash. Leave this empty if you are deploying to a service like Vercel or Netlify without a custom domain.
 		"custom-domain": "",
 		// The sub-directory your site is deployed in (e.g., "/blog"). Leave empty if your site is at the root of your domain. Must start with a forward slash "/" if used.
@@ -117,8 +117,8 @@
 	// Add your social media profile URLs here. They will be displayed in the site's social list component.
 	// The keys (e.g., 'github', 'twitter') are fixed and correspond to specific icons.
 	socials: {
-		email: "mailto:your-email@example.com",
-		github: "",
+		email: "destantezel@gmail.com",
+		github: "github.com/DestanT",
 		googlescholar: "",
 		semanticscholar: "",
 		dblp: "",
@@ -133,7 +133,7 @@
 		kofi: "",
 		"buy-me-a-coffee": "",
 		// This link is for forked repo you'll end up having. Feel free to change it to your needs.
-		"this-github-repo": "https://github.com/nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog",
+		"this-github-repo": "https://github.com/DestanT/DestanT.github.io",
 	},
 
 	// === Analytics Tracking ===
@@ -179,13 +179,18 @@
 	comments: {
 		// Giscus is a comments system powered by GitHub Discussions. It's free and open-source. Go here for the process of setting it up: https://giscus.app/
 		giscus: {
-			"data-repo": "nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog",
-			"data-repo-id": "R_kgDOK0FuUA",
-			"data-category": "Announcements",
-			"data-category-id": "DIC_kwDOK0FuUM4CbZ5A",
-			"data-mapping": "pathname",
+			"data-repo": "DestanT/DestanT.github.io",
+			"data-repo-id": "R_kgDOSyXsDA",
+			"data-category": "General",
+			"data-category-id": "DIC_kwDOSyXsDM4C-l84",
+			"data-mapping": "title",
+			data-strict="0",
 			"data-input-position": "top",
-			"data-reactions-enabled": true,
+			data-reactions-enabled="1",
+			data-emit-metadata="0",
+			data-theme="catppuccin_mocha",
+			data-lang="en",
+        	data-loading="lazy",
 		},
 
 		// Display comments from Bluesky posts related to your blog posts.
