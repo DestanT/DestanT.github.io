@@ -184,13 +184,8 @@
 			"data-category": "General",
 			"data-category-id": "DIC_kwDOSyXsDM4C-l84",
 			"data-mapping": "title",
-			data-strict="0",
 			"data-input-position": "top",
-			data-reactions-enabled="1",
-			data-emit-metadata="0",
-			data-theme="catppuccin_mocha",
-			data-lang="en",
-        	data-loading="lazy",
+			"data-reactions-enabled": true,
 		},
 
 		// Display comments from Bluesky posts related to your blog posts.
